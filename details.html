@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>All Products - Shoes Hub Nepal </title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/fontawesome.min.css">
+</head>
+<body>
+
+  
+  <div class="container">
+      <div class="navbar">
+          <div class="logo">
+              <img src="New folder/logo.jpg"  width = "125px">
+          </div>
+          <nav>
+              <ul id = "MenuItems">
+                  <li><a href="">Home</a></li>
+                  <li><a href="">Products</a></li>
+                  <li><a href="">About</a></li>
+                  <li><a href="">Contact</a></li>
+                  <li><a href="">Account</a></li>
+              </ul>
+          </nav>
+          <a href="cart.html"><img src="New folder/cart.png" width="30px" height="30px"></a>
+          <img src="New folder/menu.png" class="menu-icon" onclick="menutoggle()">
+      </div>
+  </div>
+
+    <div class="small-container">
+       <div class="row">
+        <div class="col2">
+            <img src="New folder/fragment.jpeg" width="100%" id="ProductImg">
+
+
+        </div>
+        <div class="col-2"></div>
+        <p>Shoes</p>
+        <h1>Travis Fragment</h1>
+        <h4>$100</h4>
+        <select>
+            <option>Select Size</option>
+            <option>9</option>
+            <option>10</option>
+            <option>11</option>
+            <option>12</option>
+            <option>13</option>
+            </select>
+            <input type="number" value="1">
+            <a href="cart.html" class="btn">Add To Cart</a>
+
+            <h3>Product Details <i class ="fa fa-indent"></i></h3>
+       </div> 
+    </div>
+
+    <div class="small-container">
+        <div class="row row-2">
+            <h2>Related Products</h2>
+            <p>View More</p>
+        </div>
+
+
+  <div class="small-container">
+
+
+    <div class="row">
+        <div class="col-4">
+            <img src="New folder/air.jpg">
+            <h4>Air</h4>
+            <p>$50.00</p>
+        </div>
+        <div class="col-4">
+            <img src="New folder/converse.jpg">
+            <h4>Converse</h4>
+            <p>$50.00</p>
+        </div>
+        <div class="col-4">
+            <img src="New folder/grey.jpg">
+            <h4>Grey Dunk</h4>
+            <p>$50.00</p>
+        </div>
+        <div class="col-4">
+            <img src="New folder/travis.jpg">
+            <h4>Travish</h4>
+            <p>$50.00</p>
+        </div>
+    </div>
+  </div>
+
+  <div class="footer">
+      <div class="container">
+          <div class="row">
+              <div class="footer-col-1">
+                  <h3>Download Our App</h3>
+                  <p>Download App for Android and ios mobile phone.</p>
+                  <div class="app-logo">
+                      <img src="New folder/play-store.png">
+                      <img src="New folder/app-store.png">
+                  </div>
+                  </div>
+                  <div class="footer-col-2">
+                      <img src="New folder/logo.jpg">
+                      <p>Our Purpose Is To Sustainably Make the Pleasure and Benefits of Sports Accessible to the Many.</p>
+                  </div>
+                  <div class="footer-col-3">
+                      <h3>Useful Links </h3>
+                      <ul>
+                          <li>Coupons</li>
+                          <li>Blog Post</li>
+                          <li>Return Policy</li>
+                          <li>Join Affiliate</li>
+                      </ul>
+              </div>
+              <div class="footer-col-4">
+                      <h3>Follow Us </h3>
+                  <ul>
+                      <li>Facebook</li>
+                      <li>Instagram</li>
+                  </ul>
+              </div>
+          </div>
+          <hr>
+          <p class="copy-right-text">© 2024 Shopeey. All Rights Reserved.</p>
+       </div>
+  </div>
+  
+  <script>
+      var MenuItems = document.getElementById("MenuItems");
+      MenuItems.style.maxHeight = "0px";
+      function menutoggle(){
+          if(MenuItems.style.maxHeight == "0px")
+          {
+              MenuItems.style.maxHeight = "200px";
+          }
+          else
+          {
+              MenuItems.style.maxHeight = "0px";
+          }
+      }
+  </script>
+
+<script>
+    var ProductImg = document.getElementById("ProductImg");
+    {
+        ProductImg.src = img.src;
+    }
+</script>
+</body>
+</html>
+ 

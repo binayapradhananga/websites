@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>All Products - Shoes Hub Nepal </title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/fontawesome.min.css">
+</head>
+<body>
+
+  
+  <div class="container">
+      <div class="navbar">
+          <div class="logo">
+              <a href="index.html"><img src="New folder/logo.jpg"  width = "125px"></a>
+          </div>
+          <nav>
+              <ul id = "MenuItems">
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="">Products</a></li>
+                  <li><a href="">About</a></li>
+                  <li><a href="">Contact</a></li>
+                  <li><a href="account.html">Account</a></li>
+              </ul>
+          </nav>
+          <img src="New folder/cart.png" width="30px" height="30px">
+          <img src="New folder/menu.png" class="menu-icon" onclick="menutoggle()">
+      </div>
+  </div>
+</div> 
+
+  <div class="small-container">
+
+        <div class="row row-2">
+            <h2>All Products</h2>
+            <select>
+                <option>Default Sorting</option>
+                <option>Sort by Price</option>
+                <option>Sort by Popularity</option>
+                <option>Sort by Sale</option>
+            </select>
+        </div>
+
+        <div class="small-container">
+            <h2 class="title">Featured Products</h2>
+            <div class="row">
+                <div class="col-4">
+                    <img src="New folder/fragment.jpeg">
+                    <h4>Fragment</h4>
+                    <p>$1000.00</p>
+                </div>
+                <div class="col-4">
+                    <img src="New folder/dunk.jpg">
+                    <h4>Dunk</h4>
+                    <p>$50.00</p>
+                </div>
+                <div class="col-4">
+                    <img src="New folder/j4.jpg">
+                    <h4>Jordan 4</h4>
+                    <p>$150.00</p>
+                </div>
+                <div class="col-4">
+                    <img src="New folder/slide.jpeg">
+                    <h4>Form Runner</h4>
+                    <p>$50.00</p>
+                </div>
+            </div>
+            <h2 class="title">Latest Products</h2>
+            <div class="row">
+                <div class="col-4">
+                    <img src="New folder/vans.jpg">
+                    <h4>Vans</h4>
+                    <p>$50.00</p>
+                </div>
+                <div class="col-4">
+                    <img src="New folder/white.jpg">
+                    <h4>white </h4>
+                    <p>$50.00</p>
+                </div>
+                <div class="col-4">
+                    <img src="New folder/travis.jpg">
+                    <h4>Travis</h4>
+                    <p>$500.00</p>
+                </div>
+                <div class="col-4">
+                    <img src="New folder/lv.jpeg">
+                    <h4>LV</h4>
+                    <p>$700.00</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-4">
+                    <img src="New folder/images.jpg">
+                    <h4>Air force</h4>
+                    <p>$100.00</p>
+                </div>
+                <div class="col-4">
+                    <img src="New folder/nb550.webp">
+                    <h4>NB550</h4>
+                    <p>$50.00</p>
+                </div>
+                <div class="col-4">
+                    <img src="New folder/converse.jpg">
+                    <h4>converse</h4>
+                    <p>$60.00</p>
+                </div>
+                <div class="col-4">
+                    <img src="New folder/adidash shoes.jpg">
+                    <h4>Adidash</h4>
+                    <p>$50.00</p>
+                </div>
+            </div>
+        </div>
+
+    <div class="page-btn">
+        <span>1</span>
+        <span>2</span>
+        <span>3</span>
+        <span>4</span>
+        <span>&#8594;</span>
+    </div>
+  </div>
+
+  <div class="footer">
+      <div class="container">
+          <div class="row">
+              <div class="footer-col-1">
+                  <h3>Download Our App</h3>
+                  <p>Download App for Android and ios mobile phone.</p>
+                  <div class="app-logo">
+                      <img src="New folder/play-store.png">
+                      <img src="New folder/app-store.png">
+                  </div>
+                  </div>
+                  <div class="footer-col-2">
+                      <img src="New folder/logo.jpg">
+                      <p>Our Purpose Is To Sustainably Make the Pleasure and Benefits of Sports Accessible to the Many.</p>
+                  </div>
+                  <div class="footer-col-3">
+                      <h3>Useful Links </h3>
+                      <ul>
+                          <li>Coupons</li>
+                          <li>Blog Post</li>
+                          <li>Return Policy</li>
+                          <li>Join Affiliate</li>
+                      </ul>
+              </div>
+              <div class="footer-col-4">
+                      <h3>Follow Us </h3>
+                  <ul>
+                      <li>Facebook</li>
+                      <li>Instagram</li>
+                  </ul>
+              </div>
+          </div>
+          <hr>
+          <p class="copy-right-text">© 2024 Shopeey. All Rights Reserved.</p>
+       </div>
+  </div>
+  
+  <script>
+      var MenuItems = document.getElementById("MenuItems");
+      MenuItems.style.maxHeight = "0px";
+      function menutoggle(){
+          if(MenuItems.style.maxHeight == "0px")
+          {
+              MenuItems.style.maxHeight = "200px";
+          }
+          else
+          {
+              MenuItems.style.maxHeight = "0px";
+          }
+      }
+  </script>
+</body>
+</html>
